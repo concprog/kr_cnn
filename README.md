@@ -1,7 +1,8 @@
 # Keypoint RCNN training code
 
 Training:
-```python train.py \
+```
+python train.py \
     --dataset coco_kp \
     --data-path path/to/coco2017/dataset \
     --model keypointrcnn_resnet50_fpn \
